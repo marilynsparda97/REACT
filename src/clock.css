@@ -1,0 +1,8 @@
+$clock-color: #2c3e50;
+
+.clock-display {
+  font-family: 'Courier New', monospace;
+  color: $clock-color;
+  background: lighten($clock-color, 60%);
+  padding: 10px;
+}
